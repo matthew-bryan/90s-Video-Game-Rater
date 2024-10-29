@@ -1,0 +1,1115 @@
+[
+  {
+    "title": "Super Mario 64",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1996,
+    "platform": "Nintendo 64",
+    "genre": "Platformer"
+  },
+  {
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "Nintendo 64",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Doom",
+    "publisher": "id Software",
+    "country": "USA",
+    "year": 1993,
+    "platform": "MS-DOS",
+    "genre": "FPS"
+  },
+  {
+    "title": "Sonic the Hedgehog",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1991,
+    "platform": "Sega Genesis",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Final Fantasy VII",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Resident Evil",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1996,
+    "platform": "PlayStation",
+    "genre": "Survival Horror"
+  },
+  {
+    "title": "Metal Gear Solid",
+    "publisher": "Konami",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Street Fighter II",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1991,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Chrono Trigger",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1995,
+    "platform": "Super Nintendo",
+    "genre": "RPG"
+  },
+  {
+    "title": "Command & Conquer",
+    "publisher": "Westwood Studios",
+    "country": "USA",
+    "year": 1995,
+    "platform": "PC",
+    "genre": "RTS"
+  },
+  {
+    "title": "Quake",
+    "publisher": "id Software",
+    "country": "USA",
+    "year": 1996,
+    "platform": "MS-DOS",
+    "genre": "FPS"
+  },
+  {
+    "title": "Myst",
+    "publisher": "Cyan Worlds",
+    "country": "USA",
+    "year": 1993,
+    "platform": "Macintosh",
+    "genre": "Point-and-Click Adventure"
+  },
+  {
+    "title": "Age of Empires",
+    "publisher": "Ensemble Studios",
+    "country": "USA",
+    "year": 1997,
+    "platform": "PC",
+    "genre": "RTS"
+  },
+  {
+    "title": "Half-Life",
+    "publisher": "Valve",
+    "country": "USA",
+    "year": 1998,
+    "platform": "PC",
+    "genre": "FPS"
+  },
+  {
+    "title": "GoldenEye 007",
+    "publisher": "Rare",
+    "country": "UK",
+    "year": 1997,
+    "platform": "Nintendo 64",
+    "genre": "FPS"
+  },
+  {
+    "title": "Diablo",
+    "publisher": "Blizzard Entertainment",
+    "country": "USA",
+    "year": 1996,
+    "platform": "PC",
+    "genre": "RPG"
+  },
+  {
+    "title": "Donkey Kong Country",
+    "publisher": "Rare",
+    "country": "UK",
+    "year": 1994,
+    "platform": "Super Nintendo",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Super Mario Kart",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1992,
+    "platform": "Super Nintendo",
+    "genre": "Racing"
+  },
+  {
+    "title": "Tomb Raider",
+    "publisher": "Core Design",
+    "country": "UK",
+    "year": 1996,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "StarCraft",
+    "publisher": "Blizzard Entertainment",
+    "country": "USA",
+    "year": 1998,
+    "platform": "PC",
+    "genre": "RTS"
+  },
+  {
+    "title": "Tekken 3",
+    "publisher": "Namco",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Castlevania: Symphony of the Night",
+    "publisher": "Konami",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Pokemon Red/Blue",
+    "publisher": "Game Freak",
+    "country": "Japan",
+    "year": 1996,
+    "platform": "Game Boy",
+    "genre": "RPG"
+  },
+  {
+    "title": "The Secret of Monkey Island",
+    "publisher": "Lucasfilm Games",
+    "country": "USA",
+    "year": 1990,
+    "platform": "PC",
+    "genre": "Point-and-Click Adventure"
+  },
+  {
+    "title": "Star Fox 64",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "Nintendo 64",
+    "genre": "Simulation"
+  },
+  {
+    "title": "Gran Turismo",
+    "publisher": "Polyphony Digital",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "Racing"
+  },
+  {
+    "title": "SimCity 2000",
+    "publisher": "Maxis",
+    "country": "USA",
+    "year": 1993,
+    "platform": "PC",
+    "genre": "Simulation"
+  },
+  {
+    "title": "Mega Man X",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1993,
+    "platform": "Super Nintendo",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Mortal Kombat",
+    "publisher": "Midway",
+    "country": "USA",
+    "year": 1992,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Banjo-Kazooie",
+    "publisher": "Rare",
+    "country": "UK",
+    "year": 1998,
+    "platform": "Nintendo 64",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Lemmings",
+    "publisher": "DMA Design",
+    "country": "UK",
+    "year": 1991,
+    "platform": "Amiga",
+    "genre": "Puzzle Games"
+  },
+  {
+    "title": "Duke Nukem 3D",
+    "publisher": "3D Realms",
+    "country": "USA",
+    "year": 1996,
+    "platform": "MS-DOS",
+    "genre": "FPS"
+  },
+  {
+    "title": "F-Zero",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1990,
+    "platform": "Super Nintendo",
+    "genre": "Racing"
+  },
+  {
+    "title": "Resident Evil 2",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "Survival Horror"
+  },
+  {
+    "title": "EarthBound",
+    "publisher": "Ape Inc./HAL Laboratory",
+    "country": "Japan",
+    "year": 1994,
+    "platform": "Super Nintendo",
+    "genre": "RPG"
+  },
+  {
+    "title": "Crash Bandicoot",
+    "publisher": "Naughty Dog",
+    "country": "USA",
+    "year": 1996,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Spyro the Dragon",
+    "publisher": "Insomniac Games",
+    "country": "USA",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Warcraft II: Tides of Darkness",
+    "publisher": "Blizzard Entertainment",
+    "country": "USA",
+    "year": 1995,
+    "platform": "PC",
+    "genre": "RTS"
+  },
+  {
+    "title": "NBA Jam",
+    "publisher": "Midway",
+    "country": "USA",
+    "year": 1993,
+    "platform": "Arcade",
+    "genre": "Sports"
+  },
+  {
+    "title": "Rayman",
+    "publisher": "Ubisoft",
+    "country": "France",
+    "year": 1995,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Tetris Attack",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1995,
+    "platform": "Super Nintendo",
+    "genre": "Puzzle Games"
+  },
+  {
+    "title": "Oddworld: Abe's Oddysee",
+    "publisher": "Oddworld Inhabitants",
+    "country": "USA",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Star Wars: Dark Forces",
+    "publisher": "LucasArts",
+    "country": "USA",
+    "year": 1995,
+    "platform": "PC",
+    "genre": "FPS"
+  },
+  {
+    "title": "Parasite Eve",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Pilotwings 64",
+    "publisher": "Nintendo",
+    "country": "USA/Japan",
+    "year": 1996,
+    "platform": "Nintendo 64",
+    "genre": "Simulation"
+  },
+  {
+    "title": "Virtua Fighter",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1993,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Harvest Moon",
+    "publisher": "Amccus",
+    "country": "Japan",
+    "year": 1996,
+    "platform": "Super Nintendo",
+    "genre": "Simulation"
+  },
+  {
+    "title": "The Curse of Monkey Island",
+    "publisher": "LucasArts",
+    "country": "USA",
+    "year": 1997,
+    "platform": "PC",
+    "genre": "Point-and-Click Adventure"
+  },
+  {
+    "title": "Super Smash Bros.",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "Nintendo 64",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Dino Crisis",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Survival Horror"
+  },
+{
+    "title": "Heroes of Might and Magic III",
+    "publisher": "New World Computing",
+    "country": "USA",
+    "year": 1999,
+    "platform": "PC",
+    "genre": "Strategy"
+  },
+  {
+    "title": "Commandos: Behind Enemy Lines",
+    "publisher": "Pyro Studios",
+    "country": "Spain",
+    "year": 1998,
+    "platform": "PC",
+    "genre": "RTS"
+  },
+  {
+    "title": "The Need for Speed",
+    "publisher": "Electronic Arts",
+    "country": "Canada",
+    "year": 1994,
+    "platform": "3DO",
+    "genre": "Racing"
+  },
+  {
+    "title": "Baldur's Gate",
+    "publisher": "BioWare",
+    "country": "Canada",
+    "year": 1998,
+    "platform": "PC",
+    "genre": "RPG"
+  },
+  {
+    "title": "Tony Hawk's Pro Skater",
+    "publisher": "Neversoft",
+    "country": "USA",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Sports"
+  },
+  {
+    "title": "Broken Sword: The Shadow of the Templars",
+    "publisher": "Revolution Software",
+    "country": "UK",
+    "year": 1996,
+    "platform": "PC",
+    "genre": "Point-and-Click Adventure"
+  },
+  {
+    "title": "Fallout",
+    "publisher": "Interplay",
+    "country": "USA",
+    "year": 1997,
+    "platform": "PC",
+    "genre": "RPG"
+  },
+  {
+    "title": "Jet Force Gemini",
+    "publisher": "Rare",
+    "country": "UK",
+    "year": 1999,
+    "platform": "Nintendo 64",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Silent Hill",
+    "publisher": "Konami",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Survival Horror"
+  },
+  {
+    "title": "Grand Theft Auto",
+    "publisher": "DMA Design",
+    "country": "UK",
+    "year": 1997,
+    "platform": "PC",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Worms",
+    "publisher": "Team17",
+    "country": "UK",
+    "year": 1995,
+    "platform": "PC",
+    "genre": "Strategy"
+  },
+  {
+    "title": "Destruction Derby",
+    "publisher": "Reflections Interactive",
+    "country": "UK",
+    "year": 1995,
+    "platform": "PlayStation",
+    "genre": "Racing"
+  },
+  {
+    "title": "Virtua Cop",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1994,
+    "platform": "Arcade",
+    "genre": "Light Gun Shooter"
+  },
+  {
+    "title": "Theme Hospital",
+    "publisher": "Bullfrog Productions",
+    "country": "UK",
+    "year": 1997,
+    "platform": "PC",
+    "genre": "Simulation"
+  },
+  {
+    "title": "Panzer Dragoon",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1995,
+    "platform": "Sega Saturn",
+    "genre": "Rail Shooter"
+  },
+  {
+    "title": "King of Fighters '94",
+    "publisher": "SNK",
+    "country": "Japan",
+    "year": 1994,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Wing Commander III: Heart of the Tiger",
+    "publisher": "Origin Systems",
+    "country": "USA",
+    "year": 1994,
+    "platform": "PC",
+    "genre": "Simulation"
+  },
+  {
+    "title": "Alien vs Predator",
+    "publisher": "Rebellion Developments",
+    "country": "UK",
+    "year": 1994,
+    "platform": "Atari Jaguar",
+    "genre": "FPS"
+  },
+  {
+    "title": "MDK",
+    "publisher": "Shiny Entertainment",
+    "country": "USA",
+    "year": 1997,
+    "platform": "PC",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "RollerCoaster Tycoon",
+    "publisher": "Chris Sawyer Productions",
+    "country": "UK",
+    "year": 1999,
+    "platform": "PC",
+    "genre": "Simulation"
+  },
+  {
+    "title": "Xenogears",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Resident Evil 3: Nemesis",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Survival Horror"
+  },
+  {
+    "title": "Super Metroid",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1994,
+    "platform": "Super Nintendo",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Age of Empires II: The Age of Kings",
+    "publisher": "Ensemble Studios",
+    "country": "USA",
+    "year": 1999,
+    "platform": "PC",
+    "genre": "RTS"
+  },
+  {
+    "title": "Medal of Honor",
+    "publisher": "DreamWorks Interactive",
+    "country": "USA",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "FPS"
+  },
+  {
+    "title": "Ape Escape",
+    "publisher": "Japan Studio",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Final Fantasy Tactics",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Riven",
+    "publisher": "Cyan Worlds",
+    "country": "USA",
+    "year": 1997,
+    "platform": "PC",
+    "genre": "Point-and-Click Adventure"
+  },
+  {
+    "title": "Killer Instinct",
+    "publisher": "Rare",
+    "country": "UK",
+    "year": 1994,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Tenchu: Stealth Assassins",
+    "publisher": "Acquire",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Suikoden II",
+    "publisher": "Konami",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Virtua Tennis",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "Arcade",
+    "genre": "Sports"
+  },
+  {
+    "title": "The House of the Dead",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1996,
+    "platform": "Arcade",
+    "genre": "Light Gun Shooter"
+  },
+  {
+    "title": "1080° Snowboarding",
+    "publisher": "Nintendo",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "Nintendo 64",
+    "genre": "Sports"
+  },
+  {
+    "title": "System Shock 2",
+    "publisher": "Looking Glass Studios/Irrational Games",
+    "country": "USA",
+    "year": 1999,
+    "platform": "PC",
+    "genre": "FPS"
+  },
+  {
+    "title": "Hexen: Beyond Heretic",
+    "publisher": "Raven Software",
+    "country": "USA",
+    "year": 1995,
+    "platform": "MS-DOS",
+    "genre": "FPS"
+  },
+  {
+    "title": "Front Mission 3",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Grandia",
+    "publisher": "Game Arts",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "Sega Saturn",
+    "genre": "RPG"
+  },
+  {
+    "title": "Twisted Metal 2",
+    "publisher": "SingleTrac",
+    "country": "USA",
+    "year": 1996,
+    "platform": "PlayStation",
+    "genre": "Vehicular Combat"
+  },
+  {
+    "title": "Wipeout",
+    "publisher": "Psygnosis",
+    "country": "UK",
+    "year": 1995,
+    "platform": "PlayStation",
+    "genre": "Racing"
+  },
+  {
+    "title": "Oddworld: Abe's Exoddus",
+    "publisher": "Oddworld Inhabitants",
+    "country": "USA",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Pokemon Snap",
+    "publisher": "HAL Laboratory",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "Nintendo 64",
+    "genre": "Simulation"
+  },
+  {
+    "title": "Diddy Kong Racing",
+    "publisher": "Rare",
+    "country": "UK",
+    "year": 1997,
+    "platform": "Nintendo 64",
+    "genre": "Racing"
+  },
+  {
+    "title": "Soulcalibur",
+    "publisher": "Namco",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Persona 2: Innocent Sin",
+    "publisher": "Atlus",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Legacy of Kain: Soul Reaver",
+    "publisher": "Crystal Dynamics",
+    "country": "USA",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+{
+    "title": "Bust-A-Move 2",
+    "publisher": "Taito",
+    "country": "Japan",
+    "year": 1995,
+    "platform": "Arcade",
+    "genre": "Puzzle Games"
+  },
+  {
+    "title": "Command & Conquer: Red Alert",
+    "publisher": "Westwood Studios",
+    "country": "USA",
+    "year": 1996,
+    "platform": "PC",
+    "genre": "RTS"
+  },
+  {
+    "title": "Final Fantasy VIII",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Star Ocean: The Second Story",
+    "publisher": "tri-Ace",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Gran Turismo 2",
+    "publisher": "Polyphony Digital",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Racing"
+  },
+  {
+    "title": "Tekken 2",
+    "publisher": "Namco",
+    "country": "Japan",
+    "year": 1995,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Phantasy Star IV",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1993,
+    "platform": "Sega Genesis",
+    "genre": "RPG"
+  },
+  {
+    "title": "Bomberman 64",
+    "publisher": "Hudson Soft",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "Nintendo 64",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Streets of Rage 2",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1992,
+    "platform": "Sega Genesis",
+    "genre": "Beat 'em Up"
+  },
+  {
+    "title": "Marvel vs. Capcom: Clash of Super Heroes",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "Arcade",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Lunar: Silver Star Story Complete",
+    "publisher": "Game Arts",
+    "country": "Japan",
+    "year": 1996,
+    "platform": "Sega Saturn",
+    "genre": "RPG"
+  },
+  {
+    "title": "G-Police",
+    "publisher": "Psygnosis",
+    "country": "UK",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Ridge Racer",
+    "publisher": "Namco",
+    "country": "Japan",
+    "year": 1993,
+    "platform": "Arcade",
+    "genre": "Racing"
+  },
+  {
+    "title": "Parasite Eve II",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Carmageddon",
+    "publisher": "Stainless Games",
+    "country": "UK",
+    "year": 1997,
+    "platform": "PC",
+    "genre": "Racing"
+  },
+  {
+    "title": "Blood Omen: Legacy of Kain",
+    "publisher": "Silicon Knights",
+    "country": "Canada",
+    "year": 1996,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Front Mission 3",
+    "publisher": "Square",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Mega Man Legends",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Alone in the Dark",
+    "publisher": "Infogrames",
+    "country": "France",
+    "year": 1992,
+    "platform": "PC",
+    "genre": "Survival Horror"
+  },
+  {
+    "title": "Battle Arena Toshinden",
+    "publisher": "Tamsoft",
+    "country": "Japan",
+    "year": 1995,
+    "platform": "PlayStation",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Klonoa: Door to Phantomile",
+    "publisher": "Namco",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Urban Chaos",
+    "publisher": "Mucky Foot Productions",
+    "country": "UK",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Command & Conquer: Tiberian Sun",
+    "publisher": "Westwood Studios",
+    "country": "USA",
+    "year": 1999,
+    "platform": "PC",
+    "genre": "RTS"
+  },
+  {
+    "title": "Sonic Adventure",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1998,
+    "platform": "Dreamcast",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Crazy Taxi",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "Arcade",
+    "genre": "Racing"
+  },
+  {
+    "title": "Power Stone",
+    "publisher": "Capcom",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "Dreamcast",
+    "genre": "Fighting"
+  },
+  {
+    "title": "Pac-Man World",
+    "publisher": "Namco",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Thief: The Dark Project",
+    "publisher": "Looking Glass Studios",
+    "country": "USA",
+    "year": 1998,
+    "platform": "PC",
+    "genre": "FPS"
+  },
+  {
+    "title": "Space Channel 5",
+    "publisher": "United Game Artists",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "Dreamcast",
+    "genre": "Music and Rhythm"
+  },
+  {
+    "title": "Shenmue",
+    "publisher": "Sega",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "Dreamcast",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Turok: Dinosaur Hunter",
+    "publisher": "Iguana Entertainment",
+    "country": "USA",
+    "year": 1997,
+    "platform": "Nintendo 64",
+    "genre": "FPS"
+  },
+  {
+    "title": "NiGHTS into Dreams",
+    "publisher": "Sonic Team",
+    "country": "Japan",
+    "year": 1996,
+    "platform": "Sega Saturn",
+    "genre": "Platformer"
+  },
+ {
+    "title": "The Lost Vikings",
+    "publisher": "Blizzard Entertainment",
+    "country": "USA",
+    "year": 1993,
+    "platform": "Super Nintendo",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Harvest Moon 64",
+    "publisher": "Victor Interactive Software",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "Nintendo 64",
+    "genre": "Simulation"
+  },
+  {
+    "title": "Alone in the Dark",
+    "publisher": "Infogrames",
+    "country": "France",
+    "year": 1992,
+    "platform": "PC",
+    "genre": "Survival Horror"
+  },
+  {
+    "title": "Vandal Hearts",
+    "publisher": "Konami",
+    "country": "Japan",
+    "year": 1996,
+    "platform": "PlayStation",
+    "genre": "RPG"
+  },
+  {
+    "title": "Need for Speed III: Hot Pursuit",
+    "publisher": "Electronic Arts",
+    "country": "Canada",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "Racing"
+  },
+  {
+    "title": "Oddworld: Abe's Exoddus",
+    "publisher": "Oddworld Inhabitants",
+    "country": "USA",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Gex: Enter the Gecko",
+    "publisher": "Crystal Dynamics",
+    "country": "USA",
+    "year": 1998,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Star Wars: Shadows of the Empire",
+    "publisher": "LucasArts",
+    "country": "USA",
+    "year": 1996,
+    "platform": "Nintendo 64",
+    "genre": "Action/Adventure"
+  },
+  {
+    "title": "Gran Turismo 2",
+    "publisher": "Polyphony Digital",
+    "country": "Japan",
+    "year": 1999,
+    "platform": "PlayStation",
+    "genre": "Racing"
+  },
+  {
+    "title": "Klonoa: Door to Phantomile",
+    "publisher": "Namco",
+    "country": "Japan",
+    "year": 1997,
+    "platform": "PlayStation",
+    "genre": "Platformer"
+  },
+  {
+    "title": "Castlevania Chronicles",
+    "publisher": "Konami",
+    "country": "Japan",
+    "year": 1993,
+    "platform": "PlayStation",
+    "genre": "Action/Adventure"
+  }
+]
+  

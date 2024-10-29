@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Video Games</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ff4500;
+            text-shadow: 2px 2px #00ced1;
+        }
+        .game-card {
+            background-color: #ffffff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 2px solid #00ced1;
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.2);
+        }
+        .game-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #ff4500;
+        }
+        .rating-options {
+            margin-top: 10px;
+        }
+        .rating-options label {
+            margin-right: 10px;
+        }
+        .slider-container {
+            margin-top: 10px;
+        }
+        .slider {
+            width: 100%;
+            background-color: #00ced1;
+        }
+        .slider-value {
+            font-weight: bold;
+            color: #ff4500;
+        }
+        #total-rated, #average-score {
+            font-size: 1.2em;
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            background-color: #00ced1;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 4px #ff4500;
+        }
+        button:hover {
+            background-color: #ff4500;
+            color: #ffffff;
+        }
+        button:active {
+            box-shadow: 0 2px #ff4500;
+            transform: translateY(2px);
+        }
+        #preferences, #recommendations {
+            background-color: #ffffff;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            border: 2px solid #00ced1;
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.2);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Sans+MS&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Rate Your Favorite Video Games</h1>
+    <div id="games-list"></div>
+    <button onclick="calculatePreferences()">Submit Ratings</button>
+    <div id="preferences"></div>
+    <div id="recommendations"></div>
+    <button id="refine-button" style="display: none;" onclick="refineRecommendations()">Rate More Games to Refine Recommendations</button>
+    <div id="total-rated">Total Games Rated: 0</div>
+    <div id="average-score">Average Score: N/A</div>
+
+    <script>
+        // Load JSON data from an external file
+        fetch('150_games.json')
+            .then(response => response.json())
+            .then(gamesData => {
+                let ratedGames = new Set();
+                let totalScore = 0;
+                let totalRatings = 0;
+                let preferences = {
+                    publisher: {},
+                    country: {},
+                    year: {},
+                    genre: {}
+                };
+                let preferenceScores = {
+                    publisher: {},
+                    country: {},
+                    year: {},
+                    genre: {}
+                };
+
+                // Select 10 random games from the data
+                function getRandomGames(games, num) {
+                    const availableGames = games.filter(game => !ratedGames.has(game.title));
+                    const shuffled = availableGames.sort(() => 0.5 - Math.random());
+                    return shuffled.slice(0, num);
+                }
+
+                // Render the games with rating options
+                function renderGames(games) {
+                    const gamesList = document.getElementById('games-list');
+                    gamesList.innerHTML = '';
+
+                    games.forEach((game, index) => {
+                        const gameCard = document.createElement('div');
+                        gameCard.classList.add('game-card');
+
+                        gameCard.innerHTML = `
+                            <div class="game-title">${game.title} (${game.year})</div>
+                            <div>Publisher: ${game.publisher}</div>
+                            <div>Country: ${game.country}</div>
+                            <div>Platform: ${game.platform}</div>
+                            <div>Genre: ${game.genre}</div>
+                            <div class="slider-container">
+                                <label for="rating-slider-${index}">Rate this game (1-10): <span class="slider-value" id="slider-value-${index}">5</span></label>
+                                <input type="range" min="1" max="10" value="5" class="slider" id="rating-slider-${index}" oninput="document.getElementById('slider-value-${index}').textContent = this.value">
+                                <div>
+                                    <label>
+                                        <input type="checkbox" name="haven't-played-${index}" value="haven't played"> Haven't played
+                                    </label>
+                                </div>
+                            </div>
+                        `;
+
+                        gamesList.appendChild(gameCard);
+                    });
+                }
+
+                // Initialize the page
+                let randomGames = getRandomGames(gamesData, 10);
+                renderGames(randomGames);
+                updateTotalRatedCount();
+
+                // Track user preferences based on ratings 7 or above
+                window.calculatePreferences = function calculatePreferences() {
+                    let highRatedCount = 0;
+                    let allRated = true;
+
+                    randomGames.forEach((game, index) => {
+                        const rating = parseInt(document.getElementById(`rating-slider-${index}`).value);
+                        const haventPlayed = document.querySelector(`input[name="haven't-played-${index}"]`).checked;
+
+                        if (!haventPlayed) {
+                            ratedGames.add(game.title);
+                            totalScore += rating;
+                            totalRatings++;
+
+                            // Track publisher
+                            if (!preferences.publisher[game.publisher]) {
+                                preferences.publisher[game.publisher] = 0;
+                                preferenceScores.publisher[game.publisher] = { total: 0, count: 0 };
+                            }
+                            preferences.publisher[game.publisher]++;
+                            preferenceScores.publisher[game.publisher].total += rating;
+                            preferenceScores.publisher[game.publisher].count++;
+
+                            // Track country
+                            if (!preferences.country[game.country]) {
+                                preferences.country[game.country] = 0;
+                                preferenceScores.country[game.country] = { total: 0, count: 0 };
+                            }
+                            preferences.country[game.country]++;
+                            preferenceScores.country[game.country].total += rating;
+                            preferenceScores.country[game.country].count++;
+
+                            // Track year
+                            if (!preferences.year[game.year]) {
+                                preferences.year[game.year] = 0;
+                                preferenceScores.year[game.year] = { total: 0, count: 0 };
+                            }
+                            preferences.year[game.year]++;
+                            preferenceScores.year[game.year].total += rating;
+                            preferenceScores.year[game.year].count++;
+
+                            // Track genre
+                            if (!preferences.genre[game.genre]) {
+                                preferences.genre[game.genre] = 0;
+                                preferenceScores.genre[game.genre] = { total: 0, count: 0 };
+                            }
+                            preferences.genre[game.genre]++;
+                            preferenceScores.genre[game.genre].total += rating;
+                            preferenceScores.genre[game.genre].count++;
+
+                            if (rating >= 7) {
+                                highRatedCount++;
+                            }
+                        } else {
+                            allRated = false;
+                        }
+                    });
+
+                    if (!allRated) {
+                        alert("Please rate all games or select 'Haven't played' before submitting.");
+                        return;
+                    }
+
+                    updateTotalRatedCount();
+                    updateAverageScore();
+
+                    if (highRatedCount === 0) {
+                        displayNoPreferencesMessage();
+                    } else {
+                        displayTopPreferences(preferences);
+                        recommendGames(preferences);
+                    }
+                }
+
+                // Update the total number of games rated
+                function updateTotalRatedCount() {
+                    const totalRatedDiv = document.getElementById('total-rated');
+                    totalRatedDiv.textContent = `Total Games Rated: ${ratedGames.size}`;
+                }
+
+                // Update the average score
+                function updateAverageScore() {
+                    const averageScoreDiv = document.getElementById('average-score');
+                    if (totalRatings > 0) {
+                        const averageScore = (totalScore / totalRatings).toFixed(2);
+                        averageScoreDiv.textContent = `Average Score: ${averageScore}`;
+                    } else {
+                        averageScoreDiv.textContent = 'Average Score: N/A';
+                    }
+                }
+
+                // Display a message if no preferences were detected
+                function displayNoPreferencesMessage() {
+                    const preferencesDiv = document.getElementById('preferences');
+                    preferencesDiv.innerHTML = "<h2>You're picky! I can't tell anything about your preferences from these ratings, other than you have high standards! Please try again.</h2>";
+                    document.getElementById('refine-button').style.display = 'block';
+                }
+
+                // Display the top three preferences for each category along with average ratings
+                function displayTopPreferences(preferences) {
+                    const preferencesDiv = document.getElementById('preferences');
+                    preferencesDiv.innerHTML = '<h2>Your Top Preferences Summary:</h2>';
+
+                    for (const category in preferences) {
+                        const sortedPreferences = Object.entries(preferences[category])
+                            .sort((a, b) => b[1] - a[1])
+                            .slice(0, 3);
+
+                        preferencesDiv.innerHTML += `<h3>${category.charAt(0).toUpperCase() + category.slice(1)}:</h3>`;
+
+                        if (sortedPreferences.length === 0) {
+                            preferencesDiv.innerHTML += `<p>No preferences detected for ${category}.</p>`;
+                        } else {
+                            sortedPreferences.forEach(([key, value]) => {
+                                const avgScore = (preferenceScores[category][key].total / preferenceScores[category][key].count).toFixed(2);
+                                preferencesDiv.innerHTML += `<p>${key}: ${value} (Average Score: ${avgScore})</p>`;
+                            });
+                        }
+                    }
+                    document.getElementById('refine-button').style.display = 'block';
+                }
+
+                // Recommend games based on top preferences
+                window.recommendGames = function recommendGames(preferences) {
+                    const recommendationsDiv = document.getElementById('recommendations');
+                    recommendationsDiv.innerHTML = '<h2>Recommended Games for You:</h2>';
+
+                    const categories = ['publisher', 'country', 'year', 'genre'];
+                    categories.forEach(category => {
+                        const sortedPreferences = Object.entries(preferences[category])
+                            .sort((a, b) => b[1] - a[1])
+                            .slice(0, 3);
+
+                        const recommendedGames = [];
+
+                        sortedPreferences.forEach(([key]) => {
+                            const filteredGames = gamesData.filter(game => game[category] === key && !ratedGames.has(game.title));
+                            if (filteredGames.length > 0) {
+                                recommendedGames.push(filteredGames[0]);
+                            }
+                        });
+
+                        recommendationsDiv.innerHTML += `<h3>Based on your preference for ${category.charAt(0).toUpperCase() + category.slice(1)}:</h3>`;
+
+                        if (recommendedGames.length === 0) {
+                            recommendationsDiv.innerHTML += `<p>I don't have enough data to make a good recommendation here!</p>`;
+                        } else {
+                            recommendedGames.forEach(game => {
+                                recommendationsDiv.innerHTML += `<p>${game.title} (${game.year}) - ${game.publisher}, ${game.platform}, ${game.genre}</p>`;
+                            });
+                        }
+                    });
+                }
+
+                // Allow users to refine their recommendations by rating more games
+                window.refineRecommendations = function refineRecommendations() {
+                    randomGames = getRandomGames(gamesData, 10);
+                    renderGames(randomGames);
+                    document.getElementById('preferences').innerHTML = '';
+                    document.getElementById('recommendations').innerHTML = '';
+                    document.getElementById('refine-button').style.display = 'none';
+                }
+            })
+            .catch(error => console.error('Error loading the JSON data:', error));
+    </script>
+</body>
+</html>
